@@ -53,7 +53,7 @@ docu :
 
 clean : 
 	$(RM) $(TARGET) $(SRCDIR)/*.orig $(SRCDIR)/*.dbg $(SRCDIR)/*.rls $(GARBAGE)
-	$(RM) -r $(DOCDIR)/*
+	$(RM) -r $(DOCDIR)/html/* $(DOCDIR)/latex/* $(DOCDIR)/rtf/*
 
 archive : 
 	#make clean // Supprimé car le livrable est situé dans le répertoire doc qui serait supprimé par le clean 
