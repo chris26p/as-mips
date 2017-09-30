@@ -51,7 +51,7 @@ int main ( int argc, char *argv[] ) {
 
 
     if ( NULL == file ) {
-        fprintf( stderr, "Pas de mon pour le fichier assembleur. Abandon du traitement.\n" );
+        fprintf( stderr, "Pas de nom pour le fichier assembleur. Abandon du traitement.\n" );
         exit( EXIT_FAILURE );
     }
 
