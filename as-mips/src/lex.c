@@ -272,7 +272,6 @@ Liste_lexeme_t *  lex_read_line( char * line, int nline) {
 		}
 	}
 	return debut_liste_p;
-
 }
 
 /**
